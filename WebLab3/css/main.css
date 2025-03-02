@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+}
+
+.header {
+    margin-left: 117px;
+    margin-right: 117px;
+    font-family: "Quicksand", serif;
+    height: 80px;
+    display: inline-flex;  
+}
+
+hr{
+    background-color: #D8E3FE;
+    border: 0 none;
+    height: 1px;
+}
+
+header .logo{
+    margin-top: 27px;
+    text-transform: uppercase;
+    width: 26px;
+    height: 26px;
+}
+
+.navigation{
+    letter-spacing: 0.5px;
+    margin-left: 73px;
+    margin-top: 33px;
+    width: 427px;
+    height: 15px;
+}
+
+.navigation ul{
+    font-size: 12px;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    font-weight: 500;
+    color: #697CA6;
+}
+
+.navigation ul li a:hover{
+    color: #5E81FE;
+    font-weight: Bold;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #697CA6
+}
+
+img {
+    max-width: 100%;
+}
+
+.heroImage{
+    background: linear-gradient(90deg, rgba(244,247,255,1) 0%, rgba(241,245,255,1) 100%);    
+    height: 570px;
+    border-top: #D8E3FE solid 1px;
+}
+
+.text_illustation{
+    background-image: url('/assets/heroImage.svg');
+    height: 570px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.heroImage h2{
+    font-family: "Roboto", serif;
+    width: 90px;
+    height: 12px;
+    top: 92px;
+    left: 673px;
+    font-weight: 500;
+    letter-spacing: 0.10em;
+    font-size: 10px;
+    line-height: auto;
+    color: #3D4F9F;
+    position: absolute;
+}
+
+h1{
+    font-family: "Quicksand", serif;
+    font-weight: 300;
+    font-size: 48px;
+    color: #3D4F9F;
+    margin-bottom: 28px;
+    position: absolute;
+    top: 120px;
+    left: 429px;
+}
+
+.heroImage p{
+    font-family: "Roboto", serif;
+    left: 469px;
+    right: 469px;
+    bottom: 284px;
+    top: 203px;
+    font-weight: normal;
+    color: #8D96BD;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    line-height: 191%;
+    position: absolute;
+}
+
+.heroImage span{
+    font-family: "Quicksand", serif;
+    font-weight: 500;
+}
+
+
+.socials{
+    margin-left: 361px;
+    margin-top: 32px;
+    width: 162px;
+    height: 17px;
+}
+
+.socials ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.socials ul li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: invert(55%) sepia(55%) saturate(4177%) hue-rotate(207deg) brightness(101%) contrast(103%);
+}
+
+.text_illustation img{
+    position: absolute;
+    top: 265px;
+    left: 645px;
+    right: 694px;
+    bottom: 212px;
+}
+
+.text_illustation img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.text_illustation .slider_nav a{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #D1D6E3;
+}
+
+.text_illustation .slider_nav{
+    width: 48px;
+    column-gap: 12px;
+    display: flex;
+    position: absolute;
+    bottom: 28px;
+    right: 696px;
+    top: 534px;
+    left: 696px;
+}
+
+.text_illustation .slider_nav a:hover{
+    cursor: pointer;
+    filter: invert(62%) sepia(85%) saturate(5152%) hue-rotate(209deg) brightness(105%) contrast(101%);
+}
+
+.btn{
+    font-family: "Quicksand", serif;
+    transition: all 500ms ease;
+    font-size: 13px;
+    margin-left: 44px;
+    margin-top: 19px;
+    width:113px;
+    height:43px;
+    background-color: #D2E1FF;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #3A79FF;
+    font-weight: Bold;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.customersSection{
+    height: 145px;
+    padding-top: 58px;
+    border-top: #D8E3FE solid 1px;
+    border-bottom: #D8E3FE solid 1px;
+
+}
+
+.customersSection nav ul{
+    width: 888px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 29px;
+    gap: 75.5px;
+    list-style: none;
+    justify-self: center;
+}
+
+.customersSection nav ul li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: invert(45%) sepia(100%) saturate(355%) hue-rotate(184deg) brightness(94%) contrast(93%);
+}
