@@ -468,3 +468,90 @@ span{
     margin-top: 21px;
 }
 
+.stats{
+    width: 1440px;
+    height: 341px;
+    border-top: #D8E3FE solid 1px;
+    border-bottom: #D8E3FE solid 1px;
+    background: linear-gradient(90deg, rgba(233,239,255,1) 0%, rgba(224,233,255,1) 100%);
+    display: inline-block;
+    position: absolute;
+}
+
+.firstStatBlock{
+    width: 720px;
+    height: 342px;
+    position: absolute;
+    text-align: right;
+    background: linear-gradient(90deg, rgba(104,136,255,1) 0%, rgba(94,128,255,1) 100%);
+}
+
+.secondStatBlock{
+    width: 720px;
+    height: 342px;
+    position: absolute;
+    text-align: left;
+    margin-left: 720px;
+}
+
+.firstStatTextSection{
+    width: 260px;
+    height: 210px;
+    position:absolute;
+    margin-left: 370px;
+    margin-top: 66px;
+}
+
+.firstStatTextSection h4{
+    font-family: "Quicksand", serif;
+    line-height: 173.7%;
+    font-size: 48px;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin-top: 7px;
+}
+
+.firstStatTextSection p{
+    font-family: "Quicksand", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-top: 2px;
+    margin-right: 1px;
+}
+
+.secondStatTextSection{
+    width: 260px;
+    height: 206px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+.secondStatTextSection img{
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.secondStatTextSection h4{
+    font-family: "Quicksand", serif;
+    line-height: 173.7%;
+    letter-spacing: 0.03em;
+    font-size: 48px;
+    font-weight: normal;
+    color: #5E80FF;
+    margin-top: 4px;
+}
+
+.secondStatTextSection p{
+    font-family: "Quicksand", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #5E80FF;
+    margin-top: 2px;
+}
