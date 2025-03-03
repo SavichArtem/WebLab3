@@ -348,6 +348,7 @@ span{
     background-repeat: no-repeat;
     margin-left: 126px;
     margin-top: 130px;
+    position: absolute;
 }
 
 .contentSection{
@@ -466,3 +467,4 @@ span{
     height: 0;
     margin-top: 21px;
 }
+
