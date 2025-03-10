@@ -63,7 +63,7 @@ header .logo{
 }
 
 .text_illustation{
-    background-image: url('/assets/heroImage.svg');
+    background-image: url('../assets/heroImage.svg');
     height: 35.75em;
     background-size: cover;
     background-position: center;
@@ -142,7 +142,7 @@ span{
     position: absolute;
     width: 3.95em;
     height: 3.95em;
-    background-image: url('/assets/PolygonPlayBtn.png');
+    background-image: url('../assets/PolygonPlayBtn.png');
     border-radius: 3em;
     background-repeat: no-repeat;
     background-position: center;
@@ -189,18 +189,13 @@ span{
     font-size: 0.8em;
     margin-top: 1.55%;
     margin-left: 3.65%;
+    color: #3A79FF;
     width:9.4%;
     height:53.75%;
     background-color: #D2E1FF;
     border-radius: 0.125em;
     border-color: transparent;
     font-weight: Bold;
-}
-
-.btn a{
-    text-decoration: none;
-    color: #3A79FF;
-
 }
 
 .btn:hover{
@@ -291,16 +286,12 @@ span{
     height: 5.54%;
     background-color: transparent;
     border-color: #D1D1E4;
+    color: #ADB4D2;
     border-style: solid;
     border-width: 0.063em;
     font-size: 0.813em;
     font-weight: 500;
     border-radius: 0.125em;
-}
-
-.seeFeaturesBtn a{
-    text-decoration: none;
-    color: #ADB4D2;
 }
 
 .plan_manage .seeFeaturesBtn:hover{
@@ -315,7 +306,7 @@ span{
 
 .plan_manage .videoPlayBtn{
     margin-top: 4.45%;
-    background-image: url('/assets/Polygon.png');
+    background-image: url('../assets/Polygon.png');
     background-position: 82% 50%;
     background-repeat: no-repeat;
     height: 5.53%;
@@ -361,7 +352,7 @@ span{
 .cloudsSection{
     width: 83%;
     height: 65%;
-    background-image: url('/assets/clouds.svg');
+    background-image: url('../assets/clouds.svg');
     background-position: center;
     background-repeat: no-repeat;
     margin-left: 8.85%;
@@ -455,6 +446,7 @@ span{
 .buttonsAboutSection .getStartedBtn{
     font-family: "Quicksand", serif;
     background-color: #D2E1FF;
+    color: #3A79FF;
     transition: all 500ms ease;
     font-weight: bold;
     font-size: 0.813em;
@@ -462,11 +454,6 @@ span{
     width: 100%;
     height: 100%;
     border: none;
-}
-
-.getStartedBtn a{
-    text-decoration: none;
-    color: #3A79FF;
 }
 
 .getStartedBtn:hover{
@@ -757,7 +744,7 @@ span{
   margin-top: 24.5%;
   border-radius: 50%;
   border: none;
-  background-image: url('/assets/increaseIcon.png');
+  background-image: url('../assets/increaseIcon.png');
   background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-position: 52%;
@@ -1128,7 +1115,7 @@ span{
     height: 20.5em;
     margin-left: 3.375em;
     margin-top: 4.5em;
-    background-image: url('/assets/clouds.png');
+    background-image: url('../assets/clouds.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1397,15 +1384,11 @@ footer h3{
     margin-left: 3.65%;
     width: 9.4%;
     height: 3.3em;
+    color: #3A79FF;
     background-color: #D2E1FF;
     border-radius: 0.125em;
     border-color: transparent;
     font-weight: bold;
-}
-
-.footer_btn a{
-    text-decoration: none;
-    color: #3A79FF;
 }
 
 .footer_btn:hover{
