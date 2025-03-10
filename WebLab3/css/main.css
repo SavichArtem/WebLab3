@@ -903,7 +903,7 @@ span{
 
 .faq_section{
     width: 90em;
-    height: 60.25em;
+    height: 60.35em;
     position: relative;
 }
 
@@ -1081,4 +1081,114 @@ span{
     margin-left: 4.1em;
     margin-top: 0.85em;
     color: #8E96B7;
+}
+
+.get_started_section{
+    background: linear-gradient(220deg, rgba(104,136,255,1) 0%, rgba(94,128,255,1) 100%);
+    position: relative;
+    width: 90em;
+    height: 27.94em;
+}
+
+.gs_clouds{
+    position: absolute;
+    width: 81.063em;
+    height: 20.5em;
+    margin-left: 3.375em;
+    margin-top: 4.5em;
+    background-image: url('/assets/clouds.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gs_text{
+    position: absolute;
+    width: 44.5em;
+    height: 12.125em;
+    margin-left: 22.75em;
+    margin-top: 5.688em;
+}
+
+.gs_text h3{
+    font-family: "Roboto", serif;
+    width: 9em;
+    height: 1em;
+    font-weight: 500;
+    font-size: 0.625em;
+    letter-spacing: 0.10em;
+    margin-left: 30.9em;
+    color: #FFFFFF;
+}
+
+.gs_text h2{
+    font-family: "Quicksand", serif;
+    width: 7.5em;
+    font-weight: 300;
+    font-size: 3em;
+    margin-top: 0.38em;
+    margin-left: 3.7em;
+    color: #FFFFFF;
+}
+
+.gs_text p{
+    font-family: "Roboto", serif;
+    text-align: center;
+    width: 44.5;
+    height: 4.875em;
+    font-size: 0.938em;
+    font-weight: 400;
+    line-height: 191%;
+    letter-spacing: 0.03em;
+    margin-top: 1.5em;
+    margin-right: 0em;
+    color: #FFFFFF;
+
+}
+
+.gs_btn{
+    display: flex;
+    position: absolute;
+    width: 17.75em;
+    height: 2.688em;
+    margin-left: 36.125em;
+    margin-top: 19.563em;
+}
+
+.viewPricingBtn{
+    font-family: "Quicksand", serif;
+    width: 10.1em;
+    height: 3.3em;
+    border:none;
+    border-top-left-radius: 0.125em;
+    border-bottom-left-radius: 0.125em;
+    background-color: #FFFFFF;
+    color: #565F82;
+    font-weight: bold;
+    font-size: 0.813em;
+}
+
+.readDocBtn{
+    font-family: "Quicksand", serif;
+    width: 12em;
+    height: 3.3em;
+    font-weight: 500;
+    font-size: 0.813em;
+    border: #A0B4FF solid 0.094em;
+    border-top-right-radius: 0.125em;
+    border-bottom-right-radius: 0.125em;
+    border-left: none;
+    background-color: transparent;
+    overflow: hidden;
+    color: #C7D3FF;
+}
+
+.viewPricingBtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.readDocBtn:hover{
+    cursor: pointer;
+    color: white;
+    border-color: white;
 }
