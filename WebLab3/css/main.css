@@ -668,6 +668,7 @@ span{
 
 .blogText .readBtnBlog{
     font-family: "Quicksand", serif;
+    transition: all 500ms ease;
     background-color: #D2E1FF;
     margin-top: 11.1%;
     width: 27.7%;
@@ -900,3 +901,184 @@ span{
     filter: invert(45%) sepia(100%) saturate(355%) hue-rotate(184deg) brightness(94%) contrast(93%);
 }
 
+.faq_section{
+    width: 90em;
+    height: 60.25em;
+    position: relative;
+}
+
+.faq_content{
+    width: 46.438em;
+    height: 38.375em;
+    margin-top: 11em;
+    margin-left: 21.75em;
+    position: absolute;
+}
+
+.faq_title{
+    width: 19.438em;
+    height: 3.875em;
+    margin-left: 13.55em;
+}
+
+.faq_title h3{
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 0.625em;
+    letter-spacing: 0.10em;
+    color: #3D4F9F;
+    margin-left: 10.6em;
+}
+
+.faq_title h2{
+    font-family: "Quicksand", serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #3D4F9F;
+    margin-top: 0.85em;
+}
+
+.questions{
+    display: grid;
+    margin-top: 4.25em;
+    grid-row: 46.438em 46.438em 46.438em 46.438em 46.438em;
+    gap: 1.063em;
+}
+
+.questions img{
+    position: absolute;
+    margin-left: 1.38em;
+    margin-top: 1.15em;
+}
+
+.questions img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.firstQuestion{
+    display: flex;
+    height: 3.75em;
+    border-bottom: #D8E3FE solid 0.063em;
+}
+
+.firstQuestion h4{
+    font-family: "Quicksand", serif;
+    width: 11em;
+    height: 1.5em;
+    font-weight: 500;
+    font-size: 0.938em;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    margin-left: 4.15em;
+    margin-top: 0.9em;
+    color: #8E96B7;
+}
+
+.secondQuestion{
+    display: flex;
+    height: 3.75em;
+    border-bottom: #D8E3FE solid 0.063em;
+}
+
+.secondQuestion h4{
+    font-family: "Quicksand", serif;
+    width: 27.5em;
+    height: 1.5em;
+    font-weight: 500;
+    font-size: 0.938em;
+    line-height: 130%;
+    letter-spacing: 0.033em;
+    margin-left: 4.1em;
+    margin-top: 0.9em;
+    color: #8E96B7;
+}
+
+.thirdQuestion{
+    display: flex;
+    height: 11em;
+    border-bottom: #D8E3FE solid 0.063em;
+}
+
+.thirdQuestion h4{
+    font-family: "Quicksand", serif;
+    font-weight: bold;
+    font-size: 0.938em;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #495274;
+    margin-left: 4.1em;
+    margin-top: 0.9em;
+    height: 1.5em;
+}
+
+.thirdQuestion button{
+    position: absolute;
+    font-family: "Quicksand", serif;
+    transition: all 500ms ease;
+    font-size: 0.813em;
+    font-weight: 500;
+    background-color: #E8ECF4;
+    color: #7382A3;
+    width: 15em;
+    height: 3.3em;
+    border: none;
+    border-radius: 0.125em;
+    margin-top: 5.11em;
+    margin-left: 41em;
+}
+
+.thirdQuestion button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #3A79FF;
+}
+
+.thirdQuestion p{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    line-height: 191%;
+    letter-spacing: 0.03em;
+    font-size: 0.875em;
+    color: #8D96BD;
+    margin-top: 4.1em;
+    margin-left: -14em;
+}
+
+.fourthQuestion{
+    display: flex;
+    height: 3.75em;
+    border-bottom: #D8E3FE solid 0.063em;
+}
+
+.fourthQuestion h4{
+    font-family: "Quicksand", serif;
+    width: 27.5em;
+    height: 1.5em;
+    font-weight: 500;
+    font-size: 0.938em;
+    line-height: 130%;
+    letter-spacing: 0.033em;
+    margin-left: 4.13em;
+    margin-top: 0.85em;
+    color: #8E96B7;
+}
+
+.fifthQuestion{
+    display: flex;
+    height: 3.75em;
+    border-bottom: #D8E3FE solid 0.063em;
+}
+
+.fifthQuestion h4{
+    font-family: "Quicksand", serif;
+    width: 32em;
+    height: 1.5em;
+    font-weight: 500;
+    font-size: 0.938em;
+    line-height: 130%;
+    letter-spacing: 0.033em;
+    margin-left: 4.1em;
+    margin-top: 0.85em;
+    color: #8E96B7;
+}
