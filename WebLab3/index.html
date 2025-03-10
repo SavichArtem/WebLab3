@@ -7,38 +7,38 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <header class="header">
-        <img src="./assets/logo.png" alt="Логотип" class="logo">
+    <header class="header" id="Home">
+        <img src="./assets/logo.png" alt="logotype" class="logo">
         <nav class="navigation">
             <ul>
-                <li><a href="" class="home">Home</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Documentation</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Documentation">Documentation</a></li>
             </ul>
         </nav>
         <nav class="socials">
             <ul>
-                <li><img src="./assets/Facebook_logo.svg" alt="Facebook"></li>
-                <li><img src="./assets/Telegram_logo.svg" alt="Telegram"></li>
-                <li><img src="./assets/Twitter_logo.svg" alt="Twitter"></li>
-                <li><img src="./assets/M_logo.svg" alt="M"></li>
+                <li><a href="https://www.facebook.com/"><img src="./assets/Facebook_logo.svg" alt="Facebook"></a></li>
+                <li><a href="https://web.telegram.org/"><img src="./assets/Telegram_logo.svg" alt="Telegram"></a></li>
+                <li><a href="https://x.com/"><img src="./assets/Twitter_logo.svg" alt="Twitter"></a></li>
+                <li><a href=""><img src="./assets/M_logo.svg" alt="M"></a></li>
             </ul>
         </nav>
-        <button class="btn">Get started</button>
+        <button class="btn"><a href="#GetStarted">Get started</a></button>
     </header>
     <main class="heroContainer">
         <section class="heroImage">
             <article class="text_illustation">
-                <img src="./assets/playButton.png" alt="playBtn">
+                <button class="playBtn"></button>
                 <h2>PLAN YOUR LIFE</h2>
                 <h1>Increase your <span class="title">productivity</span></h1>
                 <p>Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu <br>
             atqui laudem an, insolens gubergren similique est cu. Et vel modus <br> 
             congue vituperata.</p>
             <nav class="slider_nav">
-                <a href=""></a>
+                <a href="" class="firstDot"></a>
                 <a href=""></a>
                 <a href=""></a>
             </nav>
@@ -47,11 +47,11 @@
         <section class="customersSection">
             <nav>
                 <ul>
-                    <li><img src="./assets/bitbucket.svg" alt="Bitbucket"></li>
-                    <li><img src="./assets/apple-watch.svg" alt="Apple-watch"></li>
-                    <li><img src="./assets/facebook.svg" alt="Facebook"></li>
-                    <li><img src="./assets/atlassian.svg" alt="Atlassian"></li>
-                    <li><img src="./assets/audi.svg" alt="Audi"></li>
+                    <li><a href="https://bitbucket.org/product/"><img src="./assets/bitbucket.svg" alt="Bitbucket"></a></li>
+                    <li><a href="https://www.apple.com/by/watch/"><img src="./assets/apple-watch.svg" alt="Apple-watch"></a></li>
+                    <li><a href="https://www.facebook.com/"><img src="./assets/facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="https://www.atlassian.com"><img src="./assets/atlassian.svg" alt="Atlassian"></a></li>
+                    <li><a href="https://www.audiusa.com/en/"><img src="./assets/audi.svg" alt="Audi"></a></li>
                 </ul>
             </nav>
         </section>
@@ -67,9 +67,9 @@
                  consequat.
             </p>
             <button class="videoPlayBtn"><span class="buttonTxt">View video</span></button>
-            <button class="seeFeaturesBtn">See features</button>
+            <button class="seeFeaturesBtn"><a href="#Features">See features</a></button>
         </section>
-        <section class="features">
+        <section class="features" id="Features">
             <article class="cloudsSection">
                 <article class="contentSection">
                     <article class="textAboutSection">
@@ -121,7 +121,7 @@
                         <hr>
                         <p>OR</p>
                         <hr>
-                        <button class="getStartedBtn">Get started</button>
+                        <button class="getStartedBtn"><a href="#GetStarted">Get started</a></button>
                     </article>
             </article>
         </section>
@@ -143,7 +143,7 @@
                 </article>
             </article>
         </section>
-        <section class="blog">
+        <section class="blog" id="Blog">
             <article class="blogTextSection">
                 <h3>OUR RESOURCES</h3>
                 <h2>Start reading our blog</h2>
@@ -171,7 +171,7 @@
                 </article>
             </article>
             <nav class="blog_slider_nav">
-                <a href=""></a>
+                <a href="" class="firstDot"></a>
                 <a href=""></a>
                 <a href=""></a>
             </nav>
@@ -204,7 +204,7 @@
                 <nav class="quotes_slider_nav">
                     <a href=""></a>
                     <a href=""></a>
-                    <a href=""></a>
+                    <a href="" class="thirdDot"></a>
                     <a href=""></a>
                     <a href=""></a>
                     <a href=""></a>
@@ -248,7 +248,7 @@
                 </article>
             </article>
         </section>
-        <section class="get_started_section">
+        <section class="get_started_section" id="GetStarted">
             <article class="gs_clouds"></article>
             <article class="gs_text">
                 <h3>PLAN YOUR LIFE</h3>
@@ -276,6 +276,30 @@
                 </article>
             </article>
         </section>
+        <footer>
+            <article class="footer_content">
+                <img src="./assets/logo.png" alt="logotype" class="footer_logo">
+                    <nav class="footer_navigation">
+                        <ul>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#Blog">Blog</a></li>
+                            <li><a href="#Features">Features</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Documentation</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="footer_socials">
+                        <ul>
+                            <li><a href="https://www.facebook.com/"><img src="./assets/Facebook_logo.svg" alt="Facebook"></a></li>
+                            <li><a href="https://web.telegram.org/"><img src="./assets/Telegram_logo.svg" alt="Telegram"></a></li>
+                            <li><a href="https://x.com/"><img src="./assets/Twitter_logo.svg" alt="Twitter"></a></li>
+                            <li><a href=""><img src="./assets/M_logo.svg" alt="M"></a></li>
+                        </ul>
+                    </nav>
+                <button class="footer_btn"><a href="#GetStarted">Get started</a></button>
+                <h3>Copyright © 2018 by Random Site</h3>
+            </article>
+        </footer>
     </main>
 </body>
 </html>

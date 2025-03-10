@@ -55,10 +55,6 @@ header .logo{
     color: #697CA6
 }
 
-img {
-    max-width: 100%;
-}
-
 .heroImage{
     background: linear-gradient(90deg, rgba(244,247,255,1) 0%, rgba(241,245,255,1) 100%);    
     height: 35.6em;
@@ -142,13 +138,21 @@ span{
     filter: invert(55%) sepia(55%) saturate(4177%) hue-rotate(207deg) brightness(101%) contrast(103%);
 }
 
-.text_illustation img{
+.text_illustation .playBtn{
     position: absolute;
-    top: 46.5%;
-    left: 44.7%;
+    width: 3.95em;
+    height: 3.95em;
+    background-image: url('/assets/PolygonPlayBtn.png');
+    border-radius: 3em;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: white;
+    top: 53.2%;
+    left: 48.2%;
 }
 
-.text_illustation img:hover{
+.text_illustation .playBtn:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -170,6 +174,10 @@ span{
     left: 48.33%;
 }
 
+.text_illustation .slider_nav .firstDot{
+    background-color: #5283FF;
+}
+
 .text_illustation .slider_nav a:hover{
     cursor: pointer;
     filter: invert(62%) sepia(85%) saturate(5152%) hue-rotate(209deg) brightness(105%) contrast(101%);
@@ -186,9 +194,15 @@ span{
     background-color: #D2E1FF;
     border-radius: 0.125em;
     border-color: transparent;
-    color: #3A79FF;
     font-weight: Bold;
 }
+
+.btn a{
+    text-decoration: none;
+    color: #3A79FF;
+
+}
+
 .btn:hover{
     cursor: pointer;
     transform: scale(1.1);
@@ -263,8 +277,11 @@ span{
 .plan_manage img{
    float: right;
    display: flex;
-   padding-right: 4%;
-   margin-top: 14.57%;
+   margin-left: 19.7em;
+   width: 53.375em;
+   height: 38.688em;
+   margin-top: 9.5em;
+   position: absolute;
 }
 
 .plan_manage .seeFeaturesBtn{
@@ -278,9 +295,12 @@ span{
     border-width: 0.063em;
     font-size: 0.813em;
     font-weight: 500;
-    color: #ADB4D2;
     border-radius: 0.125em;
-    
+}
+
+.seeFeaturesBtn a{
+    text-decoration: none;
+    color: #ADB4D2;
 }
 
 .plan_manage .seeFeaturesBtn:hover{
@@ -436,13 +456,17 @@ span{
     font-family: "Quicksand", serif;
     background-color: #D2E1FF;
     transition: all 500ms ease;
-    color: #3A79FF;
     font-weight: bold;
     font-size: 0.813em;
     border-radius: 0.125em;
     width: 100%;
     height: 100%;
     border: none;
+}
+
+.getStartedBtn a{
+    text-decoration: none;
+    color: #3A79FF;
 }
 
 .getStartedBtn:hover{
@@ -633,6 +657,10 @@ span{
     height: 0.5em;
     border-radius: 50%;
     background-color: #D1D6E3;
+}
+
+.blog_slider_nav .firstDot{
+    background-color: #5283FF;
 }
 
 .blog_slider_nav a:hover{
@@ -887,6 +915,10 @@ span{
     margin-top: 15.9em;
     margin-left: 37em;
     height: 0.5em;
+}
+
+.quotes_slider_nav .thirdDot{
+    background-color: #5283FF;
 }
 
 .quotes_slider_nav a{
@@ -1271,6 +1303,112 @@ span{
 }
 
 .newsletter_input .saveBtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+footer{
+    font-family: "Quicksand", serif;
+    position: relative;
+    width: 90em;
+    height: 17.938em;
+}
+
+.footer_content{
+    width: 75.375em;
+    height: 6.313em;
+    margin-left: 7.313em;
+    margin-top: 5.813em;
+    display: flex;
+    position: absolute;
+}
+
+.footer_logo{
+    margin-top: 0.5em;
+    width: 1.625em;
+    height: 1.625em;
+}
+
+.footer_navigation{
+    margin-left: 4.55em;
+    margin-top: 0.9em;
+    width: 26.8em;
+    height: 1em;
+}
+
+.footer_navigation ul{
+    font-size: 75%;
+    list-style: none;
+    display: flex;
+    font-weight: 500;
+    color: #697CA6;
+    letter-spacing: 0.07em;
+    justify-content: space-between;
+
+}
+
+.footer_navigation ul li a:hover{
+    color: #5E81FE;
+    font-weight: Bold;
+}
+
+.footer_navigation a {
+    text-decoration: none;
+    color: #697CA6
+}
+
+footer h3{
+    font-family: "Quicksand", serif;
+    font-weight: 500;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    color: #AEB8D0;
+    position: absolute;
+    margin-top: 5.9em;
+    margin-left: 8.3em;
+}
+
+.footer_socials{
+    margin-left: 22.5em;
+    margin-top: 0.8em;
+    width: 10.1em;
+    height: 1em;
+}
+
+.footer_socials ul{
+    display: grid;
+    grid-template-columns: 1em 1.2em 1.2em 1.2em;
+    gap: 1.88em;
+    list-style: none;
+    width: 100%;
+}
+
+
+.footer_socials ul li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: invert(55%) sepia(55%) saturate(4177%) hue-rotate(207deg) brightness(101%) contrast(103%);
+}
+
+.footer_btn{
+    font-family: "Quicksand", serif;
+    transition: all 500ms ease;
+    font-size: 0.8em;
+    margin-left: 3.65%;
+    width: 9.4%;
+    height: 3.3em;
+    background-color: #D2E1FF;
+    border-radius: 0.125em;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.footer_btn a{
+    text-decoration: none;
+    color: #3A79FF;
+}
+
+.footer_btn:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
