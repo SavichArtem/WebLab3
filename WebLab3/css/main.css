@@ -207,9 +207,9 @@ span{
     height: 9.15em;
     width: 90em;
     padding-top: 3.625em;
+    padding-left: 17.25em;
     border-top: #D8E3FE solid 0.063em;
     border-bottom: #D8E3FE solid 0.063em;
-
 }
 
 .customersSection nav ul{
@@ -219,7 +219,6 @@ span{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 8.60%;
     list-style: none;
-    justify-self: center;
 }
 
 .customersSection nav ul li:hover{
